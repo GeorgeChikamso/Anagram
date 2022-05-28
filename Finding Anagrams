@@ -1,0 +1,9 @@
+#A code to Check if two words are anagrams
+firstWord = input("Please put the first word: ")
+secondWord = input("Please put the second word: ")
+sortedFirstWord = sorted(firstWord)
+sortedSecondWord = sorted(secondWord)
+if sortedFirstWord == sortedSecondWord:
+    print("True")
+else:
+    print("False")
